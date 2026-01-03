@@ -1,0 +1,5 @@
+faiss-cpu 
+numpy 
+PyPDF2 
+beautifulsoup4 
+markdown

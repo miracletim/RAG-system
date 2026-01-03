@@ -1,0 +1,6 @@
+Fix RAG architecture to improve speed and efficiency
+
+- Pre-load models into memory
+- Pre-load documents, chunk and embed 
+- Save vector database 
+- Load vector database from storage 
