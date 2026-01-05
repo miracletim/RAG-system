@@ -86,8 +86,8 @@ These models are stored locally and used fully offline.
 ### 3️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/miracletim/RAG-system.git
-cd RAG-system
+git clone https://github.com/miracletim/faiss-rag-offline.git
+cd faiss-rag-offline
 ```
 
 ---
