@@ -104,10 +104,10 @@ pip install -r requirements.txt
 
 ## ▶️ Running the System
 
-Simply run the main entry point:
+Simply run the app entry point:
 
 ```bash
-python main.py
+python app.py
 ```
 
 The system is **self-guided** and will:
