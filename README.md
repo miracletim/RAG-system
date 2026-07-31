@@ -7,24 +7,24 @@ The system is optimized for performance by **persisting document embeddings** an
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔒 **100% Offline RAG** (after model setup)
-- 📄 Document ingestion and chunking
-- 🧠 Embedding generation using **nomic-embed-text**
-- 🗄️ Vector search powered by **FAISS**
-- 💾 Persistent embeddings stored as `.npy` files (no re-embedding on restart)
-- ⚡ In-memory caching for:
+-  **100% Offline RAG** (after model setup)
+-  Document ingestion and chunking
+-  Embedding generation using **nomic-embed-text**
+-  Vector search powered by **FAISS**
+-  Persistent embeddings stored as `.npy` files (no re-embedding on restart)
+-  In-memory caching for:
 
   - Query embeddings
   - Model responses
 
-- 🖥️ Simple **command-line interface (CLI)**
-- 🧩 Modular and easy to extend
+-  Simple **command-line interface (CLI)**
+-  Modular and easy to extend
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - **LLM Runtime:** Ollama
 - **LLM:** llama3.2
@@ -34,7 +34,7 @@ The system is optimized for performance by **persisting document embeddings** an
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 1. Documents are ingested from disk
 2. Documents are chunked into smaller text segments
@@ -60,17 +60,17 @@ The system is optimized for performance by **persisting document embeddings** an
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1️⃣ Install Ollama
+###  Install Ollama
 
 Download and install Ollama from:
 
-👉 [https://ollama.com](https://ollama.com)
+ [https://ollama.com](https://ollama.com)
 
 ---
 
-### 2️⃣ Install Required Models
+###  Install Required Models
 
 Once Ollama is installed, pull the required models:
 
@@ -83,7 +83,7 @@ These models are stored locally and used fully offline.
 
 ---
 
-### 3️⃣ Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/miracletim/faiss-rag-offline.git
@@ -92,7 +92,7 @@ cd faiss-rag-offline
 
 ---
 
-### 4️⃣ Install Python Dependencies
+###  Install Python Dependencies
 
 Ensure you have **Python 3.8 or higher**, then run:
 
@@ -102,7 +102,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the System
+##  Running the System
 
 Simply run the app entry point:
 
@@ -117,7 +117,7 @@ The system is **self-guided** and will:
 
 ---
 
-## 📂 Embedding Persistence
+##  Embedding Persistence
 
 - Document embeddings are saved as `.npy` files
 - On subsequent runs, embeddings are **loaded from disk** instead of recomputed
@@ -125,7 +125,7 @@ The system is **self-guided** and will:
 
 ---
 
-## 🧠 Caching Strategy
+##  Caching Strategy
 
 | Cached Item         | Storage       | Persisted |
 | ------------------- | ------------- | --------- |
@@ -135,7 +135,7 @@ The system is **self-guided** and will:
 
 ---
 
-## 📌 Requirements
+##  Requirements
 
 - Python **3.8+**
 - Ollama (installed locally)
@@ -146,7 +146,7 @@ All Python dependencies are listed in `requirements.txt`.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Persist query & response cache
 - Support for multiple embedding files
@@ -156,23 +156,23 @@ All Python dependencies are listed in `requirements.txt`.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, ideas, and improvements are welcome. Feel free to fork the repo and submit a pull request.
 
 ---
 
-## 📜 License
+##  License
 
 MIT
 
 ---
 
-## 🧠 Author
+##  Author
 
 **Miracle Timothy**
 Full Stack Developer | AI Systems Builder
 
 ---
 
-> _"Offline-first AI systems are not a limitation — they are a design choice."_ 🚀
+> _"Offline-first AI systems are not a limitation — they are a design choice."_ 
