@@ -171,8 +171,6 @@ MIT
 ##  Author
 
 **Miracle Timothy**
-Full Stack Developer | AI Systems Builder
-
 ---
 
 > _"Offline-first AI systems are not a limitation — they are a design choice."_ 
