@@ -129,9 +129,9 @@ The system is **self-guided** and will:
 
 | Cached Item         | Storage       | Persisted |
 | ------------------- | ------------- | --------- |
-| Document embeddings | Disk (`.npy`) | ✅ Yes    |
-| Query embeddings    | Memory        | ❌ No     |
-| LLM responses       | Memory        | ❌ No     |
+| Document embeddings | Disk (`.npy`) | Yes       |
+| Query embeddings    | Memory        | No        |
+| LLM responses       | Memory        | No        |
 
 ---
 
